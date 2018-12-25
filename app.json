@@ -1,0 +1,53 @@
+{
+  "pages":[
+    "pages/basics/basics",
+    "pages/media/media",
+    "pages/table/table",
+    "pages/view/view",
+    "pages/index/index",
+    "pages/logs/logs"
+
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+
+  "tabBar": {
+    "color": "#6e6d6b",
+    "selectedColor": "#e64340",
+    "borderStyle": "white",
+    "backgroundColor": "#fff",
+    "box-shadow": "0 0 6px 0",
+    "list": [
+      {
+      "pagePath": "pages/basics/basics",
+      "text": "基础组件",
+      "iconPath": "images/a_unselect.png",
+      "selectedIconPath": "images/a_select.png"
+    },
+    {
+      "pagePath": "pages/media/media",
+      "text": "媒体组件",
+      "iconPath": "images/b_unselect.png",
+      "selectedIconPath": "images/b_select.png"
+    },
+
+    {
+      "pagePath": "pages/table/table",
+      "text": "表单组件",
+      "iconPath": "images/c_unselect.png",
+      "selectedIconPath": "images/c_select.png"
+    },
+
+    {
+      "pagePath": "pages/view/view",
+      "text": "视图组件",
+      "iconPath": "images/d_unselect.png",
+      "selectedIconPath": "images/d_select.png"
+    }
+    ]
+  }
+}
