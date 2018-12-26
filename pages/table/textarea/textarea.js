@@ -4,17 +4,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    basics:[
-      {"name":"progroess"}
-    ]
-      
     
-  },
-
-  basics_item_click:function(){
-    wx.navigateTo({
-      url: '../../pages/basics/progress/progress',
-    })
   },
 
   /**

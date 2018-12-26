@@ -1,0 +1,11 @@
+.basics_main{
+  box-sizing: content-box;
+}
+
+.basics_item_for{
+  border-bottom: 1rpx solid black;
+  padding: 10rpx;
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+}

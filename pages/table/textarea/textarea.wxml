@@ -1,0 +1,5 @@
+<view textarea_main>
+ <textarea class="tarea1"placeholder='请输入内容'></textarea>
+
+ <textarea bindblur="bindTextAreaBlur" auto-height  placeholder="自动变高" />
+</view>

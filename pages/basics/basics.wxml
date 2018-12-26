@@ -1,3 +1,13 @@
-<view>
-  <text>111111</text>
+<view class="basics_main">
+
+<block>
+
+ <view class='basics_item_for' wx:for="{{basics}}" wx:key="index" bindtap='basics_item_click'>
+  <view class='basics_item'>
+    <view basics_item_text>{{item.name}}</view>
+  </view>
+ </view> 
+
+</block>
+  
 </view>

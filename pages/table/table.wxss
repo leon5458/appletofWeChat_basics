@@ -1,0 +1,9 @@
+.table_main{
+  text-align: center;
+  font-size: 25px;
+  color: black;
+  padding: 10rpx;
+  background-color: antiquewhite;
+
+}
+

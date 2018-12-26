@@ -1,0 +1,7 @@
+<view class='slider_main'>
+<view class="body-view"><slider bindchange="slider2change" step="5" /></view>
+
+<view class='slider-view2'><slider bindchange="slider3change" show-value></slider></view>
+<view class='slider-view3'><slider bindchange="slider4change" min='20' max='200' show-value></slider></view>
+
+</view>

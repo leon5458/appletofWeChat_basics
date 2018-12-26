@@ -4,17 +4,14 @@ Page({
    * 页面的初始数据
    */
   data: {
-    basics:[
-      {"name":"progroess"}
-    ]
-      
     
   },
 
-  basics_item_click:function(){
-    wx.navigateTo({
-      url: '../../pages/basics/progress/progress',
-    })
+  switch1Change(e) {
+    console.log('switch1 发生 change 事件，携带值为', e.detail.value)
+  },
+  switch2Change(e) {
+    console.log('switch2 发生 change 事件，携带值为', e.detail.value)
   },
 
   /**

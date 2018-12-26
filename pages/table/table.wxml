@@ -1,0 +1,58 @@
+<!-- <view class="table_main">
+<block class="table_block">
+ <view class='table_item_for' wx:for="{{table_data}}" wx:for-item="tabe" wx:key="index"  
+   bindtap='table_item_click'   >
+   <view class='table_item'>
+   <view class='table_item_text'>{{tabe.name}}</view>
+   </view>
+ </view>
+</block>
+</view> -->
+
+
+<view class='table_main'>
+  <view class='button'bindtap="btn_click">
+  <text >Button</text> 
+   </view>
+
+   <view class='checkbox' bindtap='check_click'>
+   <text>checkbox</text>
+   </view>
+
+    <view class='form'>
+   <text>form</text>
+   </view>
+
+    <view class='input'>
+   <text>input</text>
+   </view>
+
+    <view class='label'>
+   <text>label</text>
+   </view>
+
+    <view class='picker' bindtap='picker_click'>
+   <text>picker</text>
+   </view>
+
+    <view class='picker-view'>
+   <text>picker-view</text>
+   </view>
+
+    <view class='radio' bindtap='radio_click'>
+   <text>radio</text>
+   </view>
+
+    <view class='slider' bindtap='slider_click'>
+   <text>slider</text>
+   </view>
+
+    <view class='textarea' bindtap='textarea_click'>
+   <text>textarea</text>
+   </view>
+
+    <view class='switch'bindtap='switch_click'>
+   <text>switch</text>
+   </view>
+
+</view>

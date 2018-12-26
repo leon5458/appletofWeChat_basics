@@ -1,0 +1,13 @@
+.btn1{
+  background-color: gray;
+  border-radius: 20px;
+  margin-left: 50rpx;
+  margin-right: 50rpx;
+}
+
+.btn2{
+  background-color: red;
+  margin-left: 50rpx;
+  margin-right: 50rpx;
+  border: 2px solid black
+}

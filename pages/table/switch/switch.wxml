@@ -1,0 +1,4 @@
+<view switch_main>
+  <switch checked bindchange="switch1Change" />
+  <switch bindchange="switch2Change" />
+</view>

@@ -1,0 +1,5 @@
+.tarea1{
+  width: 600rpx;
+  height: 200rpx;
+  border: 2px solid black;
+}

@@ -1,0 +1,21 @@
+<button    class="btn1">安妮妮</button>
+<button  class="btn2">安妮妮</button>
+<button type="default" size="default"> size属性为default </button>
+<button type="default" size="mini"> size属性为mini </button>
+<!--type属性为primary-->
+<!--size属性为default-->
+<button type="primary" size="default"> size属性为default </button>
+<!--size属性为mini-->
+<button type="primary" size="mini"> size属性为mini </button>
+<!--type属性为warn 一般用于需要慎重点击的按钮-->
+<!--size属性为default-->
+<button type="warn" size="default"> size属性为default </button>
+<!--size属性为mini-->
+<button type="warn" size="mini"> size属性为mini </button>
+
+
+<button type="default" size="default" plain="true"> size属性为mini </button>
+
+<button type="default" size="default" plain="true"disabled="false"> disabled属性设置为false </button>
+
+<button type="default" size="default" plain="true" loading='true'> loading的属性设置为true</button>

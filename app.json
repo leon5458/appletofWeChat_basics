@@ -5,7 +5,16 @@
     "pages/table/table",
     "pages/view/view",
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/basics/progress/progress",
+     "pages/table/button/button",
+     "pages/table/checkbox/checkbox",
+     "pages/table/switch/switch",
+     "pages/table/textarea/textarea", 
+     "pages/table/slider/slider",
+     "pages/table/radio/radio",
+     "pages/table/picker/picker"
+
 
   ],
   "window":{
@@ -49,5 +58,6 @@
       "selectedIconPath": "images/d_select.png"
     }
     ]
+    
   }
 }
