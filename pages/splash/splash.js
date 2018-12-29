@@ -7,18 +7,18 @@ Page({
     
   },
 
-  formSubmit: function (e) {
-    console.log('form发生了submit事件，携带数据为：', e.detail.value)
-  },
-  formReset: function () {
-    console.log('form发生了reset事件')
-  },
+  
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    
+    setTimeout(this.getIndex, 2000)
+  },
+  getIndex(){
+     wx.switchTab({
+        url: '../../pages/basics/basics',
+     })
   },
 
   /**

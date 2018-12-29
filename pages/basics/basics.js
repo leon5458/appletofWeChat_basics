@@ -4,16 +4,47 @@ Page({
    * 页面的初始数据
    */
   data: {
-    basics:[
-      {"name":"progroess"}
-    ]
-      
-    
   },
 
-  basics_item_click:function(){
+  item_1_click:function(){
     wx.navigateTo({
       url: '../../pages/basics/progress/progress',
+    })
+  },
+
+  item_2_click:function(){
+    wx.navigateTo({
+      url: '../../pages/basics/list/list',
+    })
+  },
+
+  item_3_click:function(){
+    wx.navigateTo({
+      url: '../../pages/basics/refresh/refresh',
+    })
+  },
+
+  item_4_click:function(){
+    wx.navigateTo({
+      url: '../../pages/basics/doubleclick/doubleclick',
+    })
+  },
+
+  item_5_click:function(){
+    wx.navigateTo({
+      url:'../../pages/basics/clear/clear',
+    })
+  },
+
+  item_6_click:function(){
+    wx.navigateTo({
+      url: '../../pages/basics/setdata/setdata',
+    })
+  },
+
+  item_7_click:function(){
+    wx.navigateTo({
+      url: '../../pages/basics/template/post_detail/post_detail',
     })
   },
 

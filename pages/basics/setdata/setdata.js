@@ -4,14 +4,44 @@ Page({
    * 页面的初始数据
    */
   data: {
-    
+    text:'那个美丽的夏天',
+    num:0 ,
+    array: [{ text: 'init data' }],
+    object: {
+      text: 'init data'
+    }
   },
 
-  formSubmit: function (e) {
-    console.log('form发生了submit事件，携带数据为：', e.detail.value)
+  changeText:function(){
+    this.setData({
+      text:"喜欢你"
+    })
   },
-  formReset: function () {
-    console.log('form发生了reset事件')
+
+  changeNum:function(){
+    this.data.num = 1
+     this.setData({
+       num: this.data.num
+     })
+  },
+
+  changeItemInArray:function(){
+    
+    this.setData({
+      'array[0].text': 'changed data'
+    })
+  },
+
+  changeItemInObject:function(){
+    this.setData({
+      'object.text': 'changed data'
+    });
+  },
+
+  addNewField: function () {
+    this.setData({
+      'newField.text': 'new data'
+    })
   },
 
   /**

@@ -1,5 +1,7 @@
 {
   "pages":[
+    
+    "pages/splash/splash",
     "pages/basics/basics",
     "pages/media/media",
     "pages/table/table",
@@ -13,8 +15,16 @@
      "pages/table/textarea/textarea", 
      "pages/table/slider/slider",
      "pages/table/radio/radio",
-     "pages/table/picker/picker"
-
+     "pages/table/picker/picker",
+     "pages/table/form/form",
+     "pages/table/input/input",
+     "pages/basics/list/list",
+     "pages/basics/refresh/refresh",
+     "pages/basics/doubleclick/doubleclick",
+     "pages/basics/setdata/setdata",
+     "pages/basics/template/post_detail/post_detail",
+     "pages/basics/clear/clear"
+      
 
   ],
   "window":{

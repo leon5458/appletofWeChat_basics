@@ -1,17 +1,28 @@
 Page({
-
   /**
    * 页面的初始数据
    */
   data: {
-    
+    register: {
+      creator: "",
+      title: "",
+      description: "",
+      phone: "",
+      location: "",
+      shop_type: "",
+      model_type: ""
+    }
   },
-
-  formSubmit: function (e) {
-    console.log('form发生了submit事件，携带数据为：', e.detail.value)
-  },
-  formReset: function () {
-    console.log('form发生了reset事件')
+  
+  getCurrentData: function (event) {
+    console.log(event.detail.value);
+     var name = event.target.dataset.name;
+     this.data.register[name] = event.detail.value;
+    this.setData({
+      register: this.data.register
+    })
+    console.log(this.data)
+   
   },
 
   /**

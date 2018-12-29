@@ -1,0 +1,4 @@
+<view>
+  <button bindtap='button1'>点击延迟弹toast</button>
+  <button bindtap='tap' data-key='abc'>防止连点</button>
+</view>

@@ -1,0 +1,36 @@
+/* .list_item_1{
+  padding: 10px;
+  border-bottom: 1px solid green;
+} */
+
+.list_item_1{
+  font-size: 25rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around
+ 
+}
+
+ 
+
+
+.list_item_2{
+  font-size: 25rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.list_item_3{
+  font-size: 25rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.list_item_4{
+  font-size: 30rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}

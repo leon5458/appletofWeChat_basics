@@ -1,0 +1,5 @@
+<view class='splash_main'>
+ <image class="icon" src="../../images/me.jpg"></image>
+
+  <text class="text">小程序的启动页</text>
+</view>

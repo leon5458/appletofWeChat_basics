@@ -1,18 +1,30 @@
-Page({
+const app = getApp();
+const util = require('../../../utils/util')
 
+Page({
   /**
    * 页面的初始数据
    */
-  data: {
-    
+ 
+    data: {
+      text: 'tomfriwel'
+    },
+  
+  button1:function(){
+    //延迟2秒后弹框
+    setTimeout(function(){
+      wx.showToast({
+        title: '点击了',
+        duration: 500
+      }) 
+    },1000)
   },
-
-  formSubmit: function (e) {
-    console.log('form发生了submit事件，携带数据为：', e.detail.value)
-  },
-  formReset: function () {
-    console.log('form发生了reset事件')
-  },
+ 
+  tap: util.throttle(function (e) {
+    console.log(this)
+    console.log(e)
+    console.log((new Date()).getSeconds())
+  }, 1000),
 
   /**
    * 生命周期函数--监听页面加载

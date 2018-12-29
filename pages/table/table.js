@@ -65,6 +65,18 @@ Page({
     })
   },
 
+  form_click:function(){
+    wx.navigateTo({
+      url: '../../pages/table/form/form',
+    })
+  },
+
+  input_click:function(){
+    wx.navigateTo({
+      url: '../../pages/table/input/input',
+    })
+  },
+
 
   /**
    * 生命周期函数--监听页面加载

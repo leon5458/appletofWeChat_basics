@@ -2,8 +2,8 @@
   box-sizing: content-box;
 }
 
-.basics_item_for{
-  border-bottom: 1rpx solid black;
+.item_1{
+  border-bottom: 1rpx solid red;
   padding: 10rpx;
   background-color: gray;
   display: flex;

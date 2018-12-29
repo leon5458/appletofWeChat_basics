@@ -1,13 +1,29 @@
 <view class="basics_main">
+   <view class="item_1" bindtap='item_1_click'>
+     <text>progress</text>
+   </view>
 
-<block>
+     <view class="item_1" bindtap='item_2_click'>
+     <text>list</text>
+    </view>
 
- <view class='basics_item_for' wx:for="{{basics}}" wx:key="index" bindtap='basics_item_click'>
-  <view class='basics_item'>
-    <view basics_item_text>{{item.name}}</view>
-  </view>
- </view> 
+     <view class="item_1" bindtap='item_3_click'>
+     <text>refresh</text>
+    </view>
 
-</block>
-  
+    <view class="item_1" bindtap='item_4_click'>
+     <text>防止连点</text>
+    </view>
+
+    <view class="item_1" bindtap='item_5_click'>
+     <text>清除数据</text>
+    </view>
+
+    <view class="item_1" bindtap='item_6_click'>
+     <text>setData</text>
+    </view>
+
+    <view class="item_1" bindtap='item_7_click'>
+     <text>template</text>
+    </view>
 </view>

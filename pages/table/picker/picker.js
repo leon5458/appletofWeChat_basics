@@ -1,5 +1,9 @@
 Page({
   data: {
+    showModal: false,
+
+
+
     array: ['美国', '中国', '巴西', '日本'],
     objectArray: [
       {
@@ -171,5 +175,84 @@ Page({
     this.setData({
       region: e.detail.value
     })
+  },
+
+  btn_click:function(){
+    wx.showToast({
+      title: '成功了',
+       duration:1500,
+    })
+  },
+
+  btn2click:function(){
+    wx.showToast({
+      title: '成功了',
+      icon:'none',
+    })
+  },
+
+  btn2_click:function(){
+    wx.showLoading({
+      title: '更新中',
+    })
+  },
+
+  btn4_click:function(){
+    wx.showModal({
+      title: '温馨提示',
+      content: '是否更改',
+    })
+  },
+
+  btn5_click: function () {
+    wx.showModal({
+      title: '温馨提示',
+      content: '是否更改',
+      mash:true ,
+      showCancel:false,
+
+    })
+  },
+
+   btn6_click: function () {
+    wx.showModal({
+      title: '温馨提示',
+      content: '是否更改',
+      cancelText:'我是谁',
+      confirmText:"我是小牧",
+      cancelColor:'#dda800',
+      confirmColor:'#333333'
+    })
+  },
+
+  btn7_click:function(){
+     wx.showActionSheet({
+       itemList: ["苹果","香蕉","梨","橘子"],
+       success:function(){
+
+       },
+       fail:function(){
+
+       },
+     })
+  },
+  btn8_click:function(){
+    this.setData({
+      showModal: true
+    })
+  },
+
+  preventTouchMove: function () {
+
+  },
+
+
+  go: function () {
+    this.setData({
+      showModal: false
+    })
   }
+
+
+
 })

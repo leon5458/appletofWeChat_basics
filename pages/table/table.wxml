@@ -19,24 +19,17 @@
    <text>checkbox</text>
    </view>
 
-    <view class='form'>
+    <view class='form' bindtap='form_click'>
    <text>form</text>
    </view>
 
-    <view class='input'>
+    <view class='input' bindtap='input_click'>
    <text>input</text>
    </view>
 
-    <view class='label'>
-   <text>label</text>
-   </view>
 
     <view class='picker' bindtap='picker_click'>
    <text>picker</text>
-   </view>
-
-    <view class='picker-view'>
-   <text>picker-view</text>
    </view>
 
     <view class='radio' bindtap='radio_click'>

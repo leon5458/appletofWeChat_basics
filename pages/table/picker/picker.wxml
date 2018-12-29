@@ -47,3 +47,35 @@
   </picker>
 </view>
 
+<view class='item_1'>
+<Button class='btn_1' type="primary" bindtap="btn_click">点击</Button>
+<Button class='btn_2'type="primary" bindtap="btn2click">点击</Button>
+</view>
+
+<view class='item_2'>
+<Button class='btn_3' type="primary" bindtap="btn2_click">点击</Button>
+</view>
+
+<view class='item_3'>
+<Button class='btn_4' type="primary" bindtap="btn4_click">点击</Button>
+<Button class='btn_5'type="primary" bindtap="btn5_click">点击</Button>
+<Button class='btn_6'type="primary" bindtap="btn6_click">点击</Button>
+</view>
+
+<view class='item_4'>
+<Button class='btn_7' type="primary" bindtap="btn7_click">点击</Button>
+</view>
+
+<view class='item_5'>
+<Button class='btn_8' type="primary" bindtap="btn8_click">点击</Button>
+</view>
+
+
+<view class="mask" catchtouchmove="preventTouchMove" wx:if="{{showModal}}"></view>
+<view class="modalDlg" wx:if="{{showModal}}">
+    <image src="../../../images/me.jpg"/>
+    <text>欢迎来到模态对话框~</text>
+    <button bindtap="go">点我可以关掉对话框</button>
+</view>
+
+

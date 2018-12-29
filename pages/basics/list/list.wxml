@@ -1,0 +1,25 @@
+<view class='list_main'>
+  <block>
+    <view class='list_item' wx:for='{{list}}' wx:key='key' bindtap='click'>
+      <view class='list_item_1'>
+        <view class='item_name_text'>{{item.name}}</view>
+        <view class='item_status_text'>{{item.status}}</view>
+      </view>
+
+      <view class='list_item_2'>
+        <view class='item_name_text'>{{item.dishname}}</view>
+        <view class='item_status_text'>{{item.dishprice}}</view>
+      </view>
+
+      <view class='list_item_3'>
+        <view class='item_name_text'>{{item.dishtotal}}</view>
+        <view class='item_status_text'>{{item.dishprice1}}</view>
+      </view>
+
+      <view class='list_item_4'>
+        <view class='item_name_text'>{{item.details}}</view>
+        <view class='item_status_text'>{{item.cancel}}</view>
+      </view>
+    </view>
+  </block>
+</view>

@@ -1,0 +1,21 @@
+<form bindreset="formReset">
+
+  <!-- 注册商家 界面 获取用户微信信息 -->
+
+  <view class="main-register">
+    <input name="creator" data-name="creator" placeholder="店主..." bindblur="getCurrentData" />
+    <input name="title" data-name="title" placeholder="请输入商店名称..." bindblur="getCurrentData" />
+    <textarea name="descript" data-name="description" placeholder="请输入描述..." bindblur="getCurrentData" />
+    <input name="contact" data-name="phone" placeholder="联系方式..." bindblur="getCurrentData" />
+    <input name="location" data-name="location" placeholder="地址..." bindblur="getCurrentData" />
+    <picker name="类别" data-name="shop_type">
+      <!-- model类别和商店类别-->
+
+    </picker>
+  </view>
+
+  <view class="btn-area">
+    <button formType="reset" bindtap="formSubmit" class="submit">注册</button>
+    <button formType="reset" class="reset">Reset</button>
+  </view>
+</form>
