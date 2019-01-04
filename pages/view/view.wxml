@@ -1,0 +1,6 @@
+<view>
+   <button bindtap='swiper'>轮播swiper</button>
+   <button bindtap='my_swiper'>my轮播swiper</button>
+   <button bindtap='skip'>带参数跳转</button>
+   <button bindtap='animation'>动画</button>
+</view>

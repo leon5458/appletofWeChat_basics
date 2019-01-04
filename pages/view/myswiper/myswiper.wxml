@@ -1,0 +1,8 @@
+<!--index.wxml-->  
+    <swiper class="swiper" indicator-dots="true" autoplay="true" interval="3000" duration="1000" current="{{swiperChange}}" bindchange="swiperChange">  
+      <block wx:for="{{movies}}" wx:key="item" >  
+        <swiper-item>  
+          <image src="{{item.url}}" class="slide-image" mode="aspectFill" bindtap="click"/>  
+        </swiper-item>  
+      </block>  
+    </swiper>  

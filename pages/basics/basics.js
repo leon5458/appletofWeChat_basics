@@ -48,6 +48,12 @@ Page({
     })
   },
 
+  item_8_click:function(){
+    wx.navigateTo({
+      url: '../../pages/basics/cache/cache',
+    })
+  },
+
   /**
    * 生命周期函数--监听页面加载
    */

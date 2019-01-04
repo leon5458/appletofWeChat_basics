@@ -1,0 +1,18 @@
+<view class='main'>
+    <view class="text1">
+     <text>{{name}}</text>
+    </view>
+
+    <view class="text2">
+     <text>{{tel}}</text>
+    </view>
+
+    <view class="text3">
+     <text>{{adress}}</text>
+    </view>
+
+     <view class='input'>
+        <input placeholder='请输入所在城市' bindinput='input'  value="{{city}}"></input>
+     </view>
+    <button  bindtap='submit'>提交</button>
+</view>

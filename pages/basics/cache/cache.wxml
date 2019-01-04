@@ -1,0 +1,25 @@
+<form>
+    <view class="item">
+        <text class="text1">姓名</text>
+        <input class='input1' type='text' placeholder='请输入姓名' value="{{name}}"/> 
+    </view>
+
+    <view class="item">
+        <text class="text1">性别</text>
+        <input class='input1' type='text' placeholder='请输入姓名' value="{{sex}}"/> 
+    </view>
+
+    <view class="item">
+        <text class="text1">出生日期</text>
+        <input class='input1' type='text' placeholder='请输入姓名'value="{{birth}}"/> 
+    </view>
+
+    <view class="item">
+        <text class="text1">手机号</text>
+        <input class='input1' type='text' placeholder='请输入姓名' value='{{tel}}'/> 
+    </view>
+
+    <view>
+          <button class="save" bindtap='save_content'> 缓存</button>
+    </view>
+</form>

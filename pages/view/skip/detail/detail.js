@@ -4,47 +4,42 @@ Page({
    * 页面的初始数据
    */
   data: {
-    
-  },
-
-  swiper:function(){
-       wx.navigateTo({
-         url: '../../pages/view/swiper/swiper',
-       })
-  },
-
-  my_swiper:function(){
-    wx.navigateTo({
-      url: '../../pages/view/myswiper/myswiper',
-    })
-  },
-
-  skip:function(){
-        wx.navigateTo({
-          url: '../../pages/view/skip/skip',
-        })
-  },
-
-  animation:function(){
-    wx.navigateTo({
-      url: '../../pages/view/animation/animation',
-    })
+    name:"",
+    tel:"",
+    adress:"",
+    city:""
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    
-  },
+    console.log(options.name, options.tel, options.adress)
+    const that = this;
 
+    that.setData({
+      name:options.name,
+      tel:options.tel,
+      adress:options.adress
+    })
+   
+  //得到缓存
+   wx.getStorage({
+     key: 'city',
+     success: function(res) {
+       console.log(res)
+       that.setData({
+         city:res.data
+       })
+     },
+   })
+
+  },
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
-  onReady: function () {
-    
+  onReady: function () { 
   },
-
   /**
    * 生命周期函数--监听页面显示
    */

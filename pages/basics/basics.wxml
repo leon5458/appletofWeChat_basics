@@ -26,4 +26,12 @@
     <view class="item_1" bindtap='item_7_click'>
      <text>template</text>
     </view>
+
+     <view class="item_1" bindtap='item_8_click'>
+     <text>缓存</text>
+    </view>
+
+     <view class="item_1" bindtap='item_9_click'>
+     <text>网络请求</text>
+    </view>
 </view>

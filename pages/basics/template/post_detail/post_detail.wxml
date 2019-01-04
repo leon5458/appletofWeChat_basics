@@ -1,2 +1,2 @@
 <import src='../template/template'/>
-<template is='post'></template>
+<template is='post'></template> 

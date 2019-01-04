@@ -1,6 +1,6 @@
 {
   "pages":[
-    
+     
     "pages/splash/splash",
     "pages/basics/basics",
     "pages/media/media",
@@ -23,7 +23,13 @@
      "pages/basics/doubleclick/doubleclick",
      "pages/basics/setdata/setdata",
      "pages/basics/template/post_detail/post_detail",
-     "pages/basics/clear/clear"
+      "pages/basics/cache/cache",
+     "pages/basics/clear/clear",
+     "pages/view/swiper/swiper",
+     "pages/view/myswiper/myswiper",
+     "pages/view/skip/detail/detail",
+      "pages/view/skip/skip",
+      "pages/view/animation/animation"
       
 
   ],
