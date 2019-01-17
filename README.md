@@ -1,2 +1,4 @@
 # appletofWeChat_basics
-寰俊灏忕▼搴忓熀纭�缁勪欢
+微信小程序基础组件
+
+![](https://github.com/leon5458/appletofWeChat_basics/blob/master/wxbasic.gif)
