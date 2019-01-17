@@ -25,12 +25,14 @@
      "pages/basics/template/post_detail/post_detail",
       "pages/basics/cache/cache",
      "pages/basics/clear/clear",
+     "pages/basics/tel/tel",
      "pages/view/swiper/swiper",
      "pages/view/myswiper/myswiper",
      "pages/view/skip/detail/detail",
       "pages/view/skip/skip",
-      "pages/view/animation/animation"
-      
+      "pages/view/animation/animation",
+      "pages/view/player/player",
+      "pages/view/image/image"
 
   ],
   "window":{

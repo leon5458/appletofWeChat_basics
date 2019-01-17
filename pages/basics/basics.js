@@ -54,6 +54,13 @@ Page({
     })
   },
 
+
+  item_10_click:function(){
+    wx.navigateTo({
+      url: '../../pages/basics/tel/tel',
+    })
+  },
+
   /**
    * 生命周期函数--监听页面加载
    */

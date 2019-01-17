@@ -7,40 +7,10 @@ Page({
     
   },
 
-  swiper:function(){
-       wx.navigateTo({
-         url: '../../pages/view/swiper/swiper',
-       })
-  },
-
-  my_swiper:function(){
-    wx.navigateTo({
-      url: '../../pages/view/myswiper/myswiper',
+  tel:function(){
+    wx.makePhoneCall({
+      phoneNumber: '13162795419',
     })
-  },
-
-  skip:function(){
-        wx.navigateTo({
-          url: '../../pages/view/skip/skip',
-        })
-  },
-
-  animation:function(){
-    wx.navigateTo({
-      url: '../../pages/view/animation/animation',
-    })
-  },
-
-  player:function(){
-   wx.navigateTo({
-     url: '../../pages/view/player/player',
-   })
-  },
-
-  image:function(){
-     wx.navigateTo({
-       url: '../../pages/view/image/image',
-     })
   },
 
   /**

@@ -1,0 +1,14 @@
+<view class="page-body">
+  <view class="page-section tc">
+    <live-player id="player" src="http://jzvd.nathen.cn/c6e3dc12a1154626b3476d9bf3bd7266/6b56c5f0dc31428083757a45764763b0-5287d2089db37e62345123a1be272f8b.mp4" mode="RTC" autoplay bindstatechange="statechange" binderror="error" />
+
+    <view class="btn-area">
+      <button bindtap="bindPlay" class="page-body-button" type="primary">播放</button>
+      <button bindtap="bindPause" class="page-body-button" type="primary">暂停</button>
+      <button bindtap="bindStop" class="page-body-button" type="primary">停止</button>
+      <button bindtap="bindResume" class="page-body-button" type="primary">恢复</button>
+      <button bindtap="bindMute" class="page-body-button" type="primary">静音</button>
+    </view>
+
+  </view>
+</view>

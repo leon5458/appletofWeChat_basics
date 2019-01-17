@@ -1,0 +1,7 @@
+<view class='img'>
+ <image src='../../../images/1.jpg'></image>本地src显示
+ <image src='{{imageurl}}'></image>本地js中data显示
+ <image src='https://p3.pstatp.com/large/43700001e49d85d3ab52'></image>网络图片
+ <image src='{{imagenet}}'></image>
+ <image src='https://raw.githubusercontent.com/leon5458/Tablayout/master/Tablayout/tablayout.gif'></image> 图片呢
+</view>

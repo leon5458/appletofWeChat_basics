@@ -1,0 +1,1 @@
+<button bindtap="tel">点击跳转</button>

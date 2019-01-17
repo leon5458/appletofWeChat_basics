@@ -4,43 +4,8 @@ Page({
    * 页面的初始数据
    */
   data: {
-    
-  },
-
-  swiper:function(){
-       wx.navigateTo({
-         url: '../../pages/view/swiper/swiper',
-       })
-  },
-
-  my_swiper:function(){
-    wx.navigateTo({
-      url: '../../pages/view/myswiper/myswiper',
-    })
-  },
-
-  skip:function(){
-        wx.navigateTo({
-          url: '../../pages/view/skip/skip',
-        })
-  },
-
-  animation:function(){
-    wx.navigateTo({
-      url: '../../pages/view/animation/animation',
-    })
-  },
-
-  player:function(){
-   wx.navigateTo({
-     url: '../../pages/view/player/player',
-   })
-  },
-
-  image:function(){
-     wx.navigateTo({
-       url: '../../pages/view/image/image',
-     })
+    imageurl:'../../../images/1.jpg',
+    imagenet:'https://p3.pstatp.com/large/43700001e49d85d3ab52'
   },
 
   /**
