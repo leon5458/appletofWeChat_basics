@@ -7,40 +7,18 @@ Page({
     
   },
 
-  swiper:function(){
-       wx.navigateTo({
-         url: '../../pages/view/swiper/swiper',
-       })
-  },
-
-  my_swiper:function(){
-    wx.navigateTo({
-      url: '../../pages/view/myswiper/myswiper',
-    })
-  },
-
-  skip:function(){
-        wx.navigateTo({
-          url: '../../pages/view/skip/skip',
-        })
-  },
-
-  animation:function(){
-    wx.navigateTo({
-      url: '../../pages/view/animation/animation',
-    })
-  },
-
-  player:function(){
-   wx.navigateTo({
-     url: '../../pages/view/player/player',
-   })
-  },
-
-  image:function(){
-     wx.navigateTo({
-       url: '../../pages/view/image/image',
-     })
+  btn : function(){
+      wx.getSystemInfo({
+        success: function(res) {
+            console.log(res.model)
+            console.log(res.pixelRatio)
+            console.log(res.windowWidth)
+            console.log(res.windowHeight)
+            console.log(res.language)
+            console.log(res.version)
+            console.log(res.platform)
+        },
+      })
   },
 
   /**

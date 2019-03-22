@@ -1,0 +1,5 @@
+<view>
+ <button bindtap='map'>地图</button>
+
+ <button bindtap='map1'>地图打点</button>
+</view>

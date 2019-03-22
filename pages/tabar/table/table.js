@@ -25,55 +25,55 @@ Page({
 
   btn_click:function(){
     wx.navigateTo({
-      url: '../../pages/table/button/button',
+      url: '../../../pages/table/button/button',
     })
   },
 
   check_click:function(){
     wx.navigateTo({
-      url: '../../pages/table/checkbox/checkbox',
+      url: '../../../pages/table/checkbox/checkbox',
     })
   },
 
   switch_click:function(){
     wx.navigateTo({
-      url: '../../pages/table/switch/switch',
+      url: '../../../pages/table/switch/switch',
     })
   },
 
   textarea_click:function(){
     wx.navigateTo({
-      url: '../../pages/table/textarea/textarea',
+      url: '../../../pages/table/textarea/textarea',
     })
   } ,
 
   slider_click:function(){
     wx.navigateTo({
-      url: '../../pages/table/slider/slider',
+      url: '../../../pages/table/slider/slider',
     })
   },
 
   radio_click:function(){
     wx.navigateTo({
-      url: '../../pages/table/radio/radio',
+      url: '../../../pages/table/radio/radio',
     })
   },
 
   picker_click:function(){
     wx.navigateTo({
-      url: '../../pages/table/picker/picker',
+      url: '../../../pages/table/picker/picker',
     })
   },
 
   form_click:function(){
     wx.navigateTo({
-      url: '../../pages/table/form/form',
+      url: '../../../pages/table/form/form',
     })
   },
 
   input_click:function(){
     wx.navigateTo({
-      url: '../../pages/table/input/input',
+      url: '../../../pages/table/input/input',
     })
   },
 

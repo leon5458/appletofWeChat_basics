@@ -4,61 +4,43 @@ Page({
    * 页面的初始数据
    */
   data: {
+    
   },
 
-  item_1_click:function(){
+  swiper:function(){
+       wx.navigateTo({
+         url: '../../../pages/view/swiper/swiper',
+       })
+  },
+
+  my_swiper:function(){
     wx.navigateTo({
-      url: '../../pages/basics/progress/progress',
+      url: '../../../pages/view/myswiper/myswiper',
     })
   },
 
-  item_2_click:function(){
+  skip:function(){
+        wx.navigateTo({
+          url: '../../../pages/view/skip/skip',
+        })
+  },
+
+  animation:function(){
     wx.navigateTo({
-      url: '../../pages/basics/list/list',
+      url: '../../../pages/view/animation/animation',
     })
   },
 
-  item_3_click:function(){
-    wx.navigateTo({
-      url: '../../pages/basics/refresh/refresh',
-    })
+  player:function(){
+   wx.navigateTo({
+     url: '../../../pages/view/player/player',
+   })
   },
 
-  item_4_click:function(){
-    wx.navigateTo({
-      url: '../../pages/basics/doubleclick/doubleclick',
-    })
-  },
-
-  item_5_click:function(){
-    wx.navigateTo({
-      url:'../../pages/basics/clear/clear',
-    })
-  },
-
-  item_6_click:function(){
-    wx.navigateTo({
-      url: '../../pages/basics/setdata/setdata',
-    })
-  },
-
-  item_7_click:function(){
-    wx.navigateTo({
-      url: '../../pages/basics/template/post_detail/post_detail',
-    })
-  },
-
-  item_8_click:function(){
-    wx.navigateTo({
-      url: '../../pages/basics/cache/cache',
-    })
-  },
-
-
-  item_10_click:function(){
-    wx.navigateTo({
-      url: '../../pages/basics/tel/tel',
-    })
+  image:function(){
+     wx.navigateTo({
+       url: '../../../pages/view/image/image',
+     })
   },
 
   /**

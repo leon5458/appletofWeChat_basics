@@ -7,25 +7,19 @@ Page({
     
   },
 
-  
-
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    setTimeout(this.getIndex, 2000)
-  },
-  getIndex(){
-     wx.switchTab({
-       url: '../../pages/tabar/basics/basics',
-     })
+    
   },
 
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-    
+    this.mapCtx = wx.createMapContext('myMap')
+    this.mapCtx.moveToLocation()
   },
 
   /**

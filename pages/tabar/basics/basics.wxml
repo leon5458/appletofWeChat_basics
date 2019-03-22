@@ -38,4 +38,12 @@
      <view class="item_1" bindtap='item_10_click'>
      <text>拨打电话</text>
     </view>
+
+    <view class="item_1" bindtap='item_11_click'>
+     <text>弹框</text>
+    </view>
+
+     <view class="item_1" bindtap='item_12_click'>
+     <text>获取设备信息</text>
+    </view>
 </view>

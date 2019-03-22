@@ -1,0 +1,42 @@
+<view>
+ <button  class="btn1" bindtap='btn11'>showtoast</button>
+
+ <button  class="btn2" bindtap='btn22'>showLoading</button>
+
+ <button  class="btn3" bindtap='btn33'>showActionSheet</button>
+
+ <button  class="btn4" bindtap='btn44'>showmodel</button>
+
+ <button  class="btn5" bindtap='btn55'>showmodel</button>
+
+ <button  class="btn6" bindtap='btn66'>showmodel</button>
+
+ <button bindtap="submit">点我弹窗</button>
+
+<view class="mask" catchtouchmove="preventTouchMove" wx:if="{{showModal}}"></view>
+<view class="modalDlg" wx:if="{{showModal}}">
+    <image style='width:200px' src="/images/2.jpg"/>
+    <text>欢迎来到模态对话框~</text>
+    <button bindtap="go">点我可以关掉对话框</button>
+</view>
+ 
+
+
+
+<view class="zan-dialog {{ showDialog ? 'zan-dialog--show' : '' }}">
+  <view class="zan-dialog__mask" bindtap="toggleDialog" />
+  <view class="zan-dialog__container">
+    <view style='padding:100rpx;'>此处是填充的布局代码</view>
+  </view>
+</view>
+
+
+<button bindtap='btn77'>测试弹框</button>
+
+
+
+ 
+
+
+
+</view>
